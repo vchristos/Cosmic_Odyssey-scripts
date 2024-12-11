@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    //public static Vector2 lastcheckpointpos = new Vector2(2 , 0);
-    // Singleton instance
     private static GameManager instance;
     public static GameManager Instance
     {
