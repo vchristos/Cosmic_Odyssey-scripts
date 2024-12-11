@@ -5,8 +5,8 @@ using UnityEngine;
 public class audio : MonoBehaviour
 {
     
-    public AudioSource musicAudioSource; // Reference to your music AudioSource
-    private bool isPlaying = true; // Variable to track whether the music is currently playing
+    public AudioSource musicAudioSource; 
+    private bool isPlaying = true; 
 
     public void ToggleMusic()
     {
@@ -21,7 +21,7 @@ public class audio : MonoBehaviour
             musicAudioSource.UnPause();
         }
 
-        // Toggle the playing state
+        // playing state
         isPlaying = !isPlaying;
     }
 }
